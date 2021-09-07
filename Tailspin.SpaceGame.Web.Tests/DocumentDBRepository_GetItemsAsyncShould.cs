@@ -30,6 +30,7 @@ namespace Tests
         [TestCase("NGC 1300")]
         [TestCase("Messier 82")]
         [TestCase("KBG")]
+        [TestCase("SuperUsers more test")]
         public void FetchOnlyRequestedGameRegion(string gameRegion)
         {
             const int PAGE = 0; // take the first page of results
